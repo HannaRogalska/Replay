@@ -11,30 +11,35 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/css/modern-normalize.css" />
 
     
     <script type="module" crossorigin src="/Replay/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Replay/assets/index-060f35f3.css">
+    <link rel="stylesheet" href="/Replay/assets/index-20cead46.css">
   </head>
   <body>
 
     <header class="header">
     <div class="container">
-        <ul>
-            <li>
+        <ul class="navigation">
+            <li class="navigation__item">
                 <img src="../img/projectImg/logo.png" alt="logo">
             </li>
-            <li><img src="../img/projectImg/burger.png" alt="burger"></li>
+            <li class="navigation__item"><img src="../img/projectImg/burger.png" alt="burger"></li>
         </ul>
-<div>
-    <img src="../img/projectImg/ellipse-pink.png" alt="ellipse-pink">
-    <img src="../img/projectImg/slider-ice-cream.png" alt="slider-ice-cream">
+        <div class="header-content">
+            <h1 class="header-content__tittle">ice cream made with <span class="header-content__tittle--color">passion</span></h1>
+            <button class="header-content__btn header-content__btn--product" type="submit">Products</button>
+            <button class="header-content__btn header-content__btn--made" type="submit">How it’s made?</button>
+        </div>
+        <div class="header-content__images">
+            <img class="header-content__images--ellipse" width="345" height="344" src="../img/projectImg/ellipse-pink.png" alt="ellipse-pink">
+            <img class="header-content__images--ice-cream" width="170" height="410" src="../img/projectImg/slider-ice-cream.png" alt="slider-ice-cream">
+        </div>
 </div>
+
     
-    <h1>ice cream made with <span>passion</span></h1>
-    <button type="submit">Products</button>
-    <button type="submit">How it’s made?</button>
-    </div>
+    
     
   
 </header>
