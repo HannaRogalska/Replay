@@ -25,6 +25,15 @@
     z-index: 1;
     padding-left: 20px;   
 }
+.btn-hidden{
+    display: none;
+    width: 160px;
+    height: 44px;
+    color: #fff;
+    color: $header-color;
+    border: none;
+    border-radius: 15px;
+}
 
 .header-content__tittle{
     position: relative;
@@ -84,5 +93,7 @@
 }
 //  Tablet
 @media screen and (min-width: 768px) {
-    
+    .btn-hidden{
+    display: block;
+}
 }
